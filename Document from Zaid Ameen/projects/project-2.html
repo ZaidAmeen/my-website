@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sales Order Tracker Dashboard — Zaid Ameen</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<nav class="nav" id="nav">
+  <a href="../index.html" class="nav-logo">ZA<span>.</span></a>
+  <div class="nav-links" id="navLinks">
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#experience">Experience</a>
+    <a href="../index.html#skills">Skills</a>
+    <a href="../index.html#work">Work</a>
+    <a href="../index.html#contact" class="nav-cta">Contact</a>
+  </div>
+  <button class="nav-burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<header class="detail-hero">
+  <div class="container">
+    <a href="../index.html#work" class="back-link">← Back to all work</a>
+    <h1 class="detail-title reveal">Sales Order Tracker Dashboard</h1>
+    <div class="detail-meta reveal">
+      <span><strong>Role:</strong> Builder & Designer</span>
+      <span><strong>Tools:</strong> Notion · Google Sheets · Looker Studio</span>
+      <span><strong>Type:</strong> Freelance Project</span>
+    </div>
+    <div class="detail-hero-img reveal" style="background:linear-gradient(135deg,#bf2f7f,#7c6cff)">DEMO HERO IMAGE — swap me</div>
+  </div>
+</header>
+
+<section class="detail-body">
+  <div class="container">
+    <div class="detail-grid">
+      <div class="reveal">
+        <h2>The Problem</h2>
+        <p>A small business tracked orders across WhatsApp messages, paper notes and a spreadsheet nobody updated. Orders got delayed, invoices were missed, and nobody had a clear picture of what was pending.</p>
+
+        <h2>The Solution</h2>
+        <p>I built a single source of truth: a clean Notion database for order entry, synced with Google Sheets, feeding a live Looker Studio dashboard the owner checks every morning with coffee.</p>
+        <ul>
+          <li>Order intake form feeding a structured Notion database</li>
+          <li>Auto-calculated statuses: New → In Progress → Dispatched → Paid</li>
+          <li>Invoice tracking with overdue highlights</li>
+          <li>Client follow-up reminders tied to order age</li>
+          <li>Live dashboard: revenue, pending orders, overdue invoices</li>
+        </ul>
+
+        <h2>The Impact</h2>
+        <p>Missed invoices dropped to zero in the first month. The owner went from chasing information to seeing it at a glance — and follow-ups now happen on time, every time.</p>
+
+        <div class="gallery">
+          <div class="gallery-img reveal" style="background:linear-gradient(135deg,#7a1f52,#4a3bb8)">DEMO SCREENSHOT 1</div>
+          <div class="gallery-img reveal" style="background:linear-gradient(135deg,#bf2f7f,#3d2f8f)">DEMO SCREENSHOT 2</div>
+          <div class="gallery-img reveal" style="background:linear-gradient(135deg,#4a3bb8,#a1256b)">DEMO SCREENSHOT 3</div>
+        </div>
+
+        <div class="demo-note">⚡ This is a demo case study with placeholder content — swap in your real project details, screenshots and metrics.</div>
+      </div>
+      <aside class="detail-side">
+        <div class="side-card reveal"><h3>Stack</h3><div class="tags"><span>Notion</span><span>Google Sheets</span><span>Looker Studio</span><span>Google Forms</span></div></div>
+        <div class="side-card reveal"><h3>Timeline</h3><p style="color:var(--muted);font-size:.9rem">10 days from chaos to dashboard</p></div>
+        <div class="side-card reveal"><h3>Key Result</h3><p style="color:var(--muted);font-size:.9rem">Zero missed invoices since launch</p></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><p>© 2026 Zaid Ameen · Bengaluru, India</p></footer>
+<script src="../script.js"></script>
+</body>
+</html>

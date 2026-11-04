@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Onboarding Automation — Zaid Ameen</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<nav class="nav" id="nav">
+  <a href="../index.html" class="nav-logo">ZA<span>.</span></a>
+  <div class="nav-links" id="navLinks">
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#experience">Experience</a>
+    <a href="../index.html#skills">Skills</a>
+    <a href="../index.html#work">Work</a>
+    <a href="../index.html#contact" class="nav-cta">Contact</a>
+  </div>
+  <button class="nav-burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<header class="detail-hero">
+  <div class="container">
+    <a href="../index.html#work" class="back-link">← Back to all work</a>
+    <h1 class="detail-title reveal">Client Onboarding Automation System</h1>
+    <div class="detail-meta reveal">
+      <span><strong>Role:</strong> No-Code Builder</span>
+      <span><strong>Tools:</strong> Zapier · Airtable · Google Workspace</span>
+      <span><strong>Type:</strong> Freelance Project</span>
+    </div>
+    <div class="detail-hero-img reveal" style="background:linear-gradient(135deg,#3b2fbf,#00e0b8)">DEMO HERO IMAGE — swap me</div>
+  </div>
+</header>
+
+<section class="detail-body">
+  <div class="container">
+    <div class="detail-grid">
+      <div class="reveal">
+        <h2>The Problem</h2>
+        <p>A service business was onboarding new clients manually — copying form responses into spreadsheets, sending welcome emails one by one, and forgetting follow-ups. Every new client meant an hour of repetitive admin, and details slipped through the cracks.</p>
+
+        <h2>The Solution</h2>
+        <p>I designed and built a fully automated onboarding pipeline: the moment a client submits a form, the system creates their record, sends a personalized welcome email, assigns internal tasks, and logs everything in a central Airtable base.</p>
+        <ul>
+          <li>Form submission triggers a multi-step Zapier workflow</li>
+          <li>Client record auto-created in Airtable with tags & pipeline stage</li>
+          <li>Personalized welcome email + intro packet sent via Gmail</li>
+          <li>Slack notification to the team with next-action checklist</li>
+          <li>Follow-up reminders scheduled automatically</li>
+        </ul>
+
+        <h2>The Impact</h2>
+        <p>Onboarding time dropped from ~60 minutes of manual work to under 2 minutes of review. Nothing gets forgotten, every client gets the same polished first impression, and the team reclaimed hours every week.</p>
+
+        <div class="gallery">
+          <div class="gallery-img reveal" style="background:linear-gradient(135deg,#241d7a,#007a63)">DEMO SCREENSHOT 1</div>
+          <div class="gallery-img reveal" style="background:linear-gradient(135deg,#3b2fbf,#005f8a)">DEMO SCREENSHOT 2</div>
+          <div class="gallery-img reveal" style="background:linear-gradient(135deg,#007a63,#3b2fbf)">DEMO SCREENSHOT 3</div>
+        </div>
+
+        <div class="demo-note">⚡ This is a demo case study with placeholder content — swap in your real project details, screenshots and metrics.</div>
+      </div>
+      <aside class="detail-side">
+        <div class="side-card reveal"><h3>Stack</h3><div class="tags"><span>Zapier</span><span>Airtable</span><span>Gmail</span><span>Slack</span><span>Google Forms</span></div></div>
+        <div class="side-card reveal"><h3>Timeline</h3><p style="color:var(--muted);font-size:.9rem">2 weeks from brief to launch</p></div>
+        <div class="side-card reveal"><h3>Key Result</h3><p style="color:var(--muted);font-size:.9rem">~58 minutes saved per client onboarded</p></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><p>© 2026 Zaid Ameen · Bengaluru, India</p></footer>
+<script src="../script.js"></script>
+</body>
+</html>
